@@ -148,6 +148,4 @@ if (!developmentChains.includes(networkConfig)) {
     })
 } else {
     describe.skip
-    console.log(getChainId)
-    console.log("unit")
 }
