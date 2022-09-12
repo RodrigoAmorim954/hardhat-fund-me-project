@@ -5,11 +5,13 @@ const networkConfig = {
     }
 }
 
+const developmentChains = ["hardhat", "localhost"]
 const DECIMALS = 8
 const INITIAL_ANSWER = 150000000000
 
 module.exports = {
     networkConfig,
     DECIMALS,
-    INITIAL_ANSWER
+    INITIAL_ANSWER,
+    developmentChains
 }
