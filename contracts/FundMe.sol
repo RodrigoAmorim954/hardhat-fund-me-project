@@ -36,7 +36,7 @@ contract FundMe {
     }
 
     // those function does not have the function keyword and needs to be external and payable
-    /*receive() external payable {
+    receive() external payable {
         // special function needed so we can send eth without calling the normal functions
         // only used if we doesn't send any data
         fund();
@@ -45,7 +45,7 @@ contract FundMe {
     fallback() external payable {
         // used only if not exist a receive function and if we send any data besides the ether
         fund();
-    }*/
+    }
 
     /**
      * @notice This function funds this contract

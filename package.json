@@ -19,16 +19,17 @@
     "hardhat-deploy": "^0.11.14",
     "hardhat-gas-reporter": "^1.0.8",
     "hardhat-waffle": "^0.0.1-security",
+    "http-server": "^14.1.1",
     "solhint": "^3.3.7",
     "solidity-coverage": "^0.8.2",
     "typechain": "^8.1.0"
   },
   "scripts": {
     "test": "yarn hardhat test",
-    "test:staging" : "yarn hardhat test --network goerly",
-    "lint" : "yarn solhint 'contracts/*.sol'",
-    "lint:fix" : "yarn solhint 'contracts/*.sol --fix'",
-    "format" : "yarn prettier --write .",
-    "coverage" : "yarn hardhat coverage"
+    "test:staging": "yarn hardhat test --network goerly",
+    "lint": "yarn solhint 'contracts/*.sol'",
+    "lint:fix": "yarn solhint 'contracts/*.sol --fix'",
+    "format": "yarn prettier --write .",
+    "coverage": "yarn hardhat coverage"
   }
 }
